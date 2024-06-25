@@ -1,0 +1,53 @@
+<p>home works!</p>
+<div class="container">
+    
+
+<div class="mt-5  pt-5"></div>
+<div class="row">
+  <div class="col-6">
+    <h1>Triangle Checker</h1>
+    <div class="form-group">
+      <label for="sideA">Enter the first side:</label>
+      <input type="number" class="form-control" id="sideA" [(ngModel)]="sideA">
+    </div>
+    
+    <div class="form-group">
+      <label for="sideB">Enter the second side:</label>
+      <input type="number" class="form-control" id="sideB" [(ngModel)]="sideB">
+    </div>
+    
+    <div class="form-group">
+      <label for="sideC">Enter the third side:</label>
+      <input type="number" class="form-control" id="sideC" [(ngModel)]="sideC">
+    </div>
+    
+    <button class="btn btn-primary" (click)="checkTriangle()">Check</button>
+    
+    <h2 class="mt-3">Result:</h2>
+    <input type="text" class="form-control" [value]="result" readonly>
+  </div>
+  <div class="col-6">
+    <h1>Integer Operation</h1>
+
+  <div class="form-group">
+    <label for="inputM">Enter M:</label>
+    <input type="number" class="form-control" id="inputM" [(ngModel)]="m">
+  </div>
+
+  <div class="form-group mt-2">
+    <label for="inputN">Enter N:</label>
+    <input type="number" class="form-control" id="inputN" [(ngModel)]="n">
+  </div>
+
+  <button class="btn btn-primary mt-3" (click)="performOperation()">Calculate</button>
+  <h2 class="mt-5">Result:</h2>
+    <input type="text" class="form-control" [value]="result1" readonly>
+
+  
+  </div>
+</div>
+
+
+
+    
+  </div>

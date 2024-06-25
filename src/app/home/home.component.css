@@ -1,0 +1,7 @@
+.smaller-button {
+    font-size: 0.75rem; 
+    padding: 0.25rem 0.5rem; 
+    height: 2rem; 
+    min-width: 2rem; /* Adjust minimum width */
+    margin-right: 8px; /* Optional: Add margin for spacing */
+}
